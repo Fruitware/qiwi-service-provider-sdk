@@ -1,0 +1,28 @@
+{
+    "name": "fruitware/qiwi-service-provider-sdk",
+    "type": "library",
+    "description": "QIWI service provider connection interface",
+    "keywords": ["qiwi", "provider", "sdk"],
+    "homepage": "https://github.com/Fruitware/qiwi-service-provider-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Coroliov Oleg",
+            "email": "ruscon@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Fruitware/qiwi-service-provider-sdk/issues",
+        "wiki": "https://github.com/Fruitware/qiwi-service-provider-sdk/wiki",
+        "source": "https://github.com/Fruitware/qiwi-service-provider-sdk"
+    },
+    "require": {
+        "php": ">= 5.3",
+        "ext-SimpleXML": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fruitware\\QiwiServiceProvider\\": "src/"
+        }
+    }
+}
