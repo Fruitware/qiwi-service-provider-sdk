@@ -94,7 +94,7 @@ class PayCommand extends PayRequest
 
 ```
 
-# Usege
+# Usage
 
 In your controller
 
